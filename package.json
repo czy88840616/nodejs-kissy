@@ -1,14 +1,14 @@
 {
-    "name": "kissy",
+    "name": "kissy-win",
     "version": "0.1.1",
-    "description": "KISSY Library on NodeJS",
-    "author": "Jayli <lijing00333@163.com>",
-    "bugs": { "web" : "http://jayli.github.com" },
-    "os": ["linux"],
+    "description": "KISSY Library on NodeJS for windows",
+    "author": "zhangting <zhangting@taobao.com>",
+    "bugs": { "web" : "http://czy88840616.github.com" },
+    "os": ["windows"],
     "contributors": [
     ],
     "engines": {
-        "node" : ">=0.1.100"
+        "node" : ">=0.6.0"
     },
     "directories": {
         "lib" : "lib"
@@ -16,7 +16,7 @@
     "main": "./lib/kissy",
     "bin" : { "kissydocs" : "./cli.js" },
     "dependencies": {
-        "jsdom": ">=0.1.10", 
+        "jsdom-nocontextifiy": ">=0.2.10",
         "htmlparser": ">=1.6.2",
         "express": ">=1.0.0rc1",
         "connect": ">=0.2.4"
@@ -29,6 +29,6 @@
     ],
     "repository": {
         "type":"git",
-        "url":"http://github.com/jayli/nodejs-kissy.git"
+        "url":"http://github.com/czy88840616/nodejs-kissy.git"
     }
 }
